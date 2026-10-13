@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Green Farm - Agriculture</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero { background: #e8f5e9; padding: 60px 0; }
+        .card img { height: 200px; object-fit: cover; }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">🌾 Green Farm</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link text-white" href="#home">Home</a>
+                <a class="nav-link text-white" href="#products">Products</a>
+                <a class="nav-link text-white" href="#about">About</a>
+                <a class="nav-link text-white" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="hero text-center">
+        <div class="container">
+            <h1 class="text-success fw-bold">Welcome to Agriculture Project</h1>
+            <p class="lead">Fresh and Organic Farming Products Direct From Farm</p>
+            <a href="#products" class="btn btn-success btn-lg">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="container my-5">
+        <h2 class="text-center text-success mb-4">Our Products</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card shadow">
+                    <img src="https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=500" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Fresh Tomato</h5>
+                        <p>₹30 / Kg</p>
+                        <button class="btn btn-success">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card shadow">
+                    <img src="https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=500" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Carrot</h5>
+                        <p>₹40 / Kg</p>
+                        <button class="btn btn-success">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card shadow">
+                    <img src="https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=500" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Keerai / Spinach</h5>
+                        <p>₹20 / Bundle</p>
+                        <button class="btn btn-success">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="bg-light py-5">
+        <div class="container text-center">
+            <h2 class="text-success">About Us</h2>
+            <p class="w-75 mx-auto">Green Farm is a local organic farming project. We grow fresh vegetables without chemicals and deliver directly to customers. Our aim is healthy food for everyone.</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container my-5">
+        <h2 class="text-center text-success mb-4">Contact Us</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <input type="text" class="form-control mb-3" placeholder="Your Name" required>
+                    <input type="email" class="form-control mb-3" placeholder="Email" required>
+                    <textarea class="form-control mb-3" rows="3" placeholder="Message"></textarea>
+                    <button class="btn btn-success w-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-success text-white text-center py-3">
+        <p class="mb-0">© 2026 Green Farm | Developed by Preetha</p>
+    </footer>
+</body>
+</html>
